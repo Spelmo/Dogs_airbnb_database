@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## The Dogs airbnb Database
 
-Things you may want to cover:
+This is a database for The Hacking Project's exercize Dogs airbnb made by Marie-Charlotte Le Morvan. The project is a website where dogsitters and dogs (well.. dog owners) can find eachother to plan strolls in their city.
 
-* Ruby version
+It is made of 4 models:
 
-* System dependencies
+Dogsitter
+Dog
+City
+Stroll
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+It uses 1-N and N-N connexion between models.
+To run `git clone`then `bundle install` and `rails db:migrate`
